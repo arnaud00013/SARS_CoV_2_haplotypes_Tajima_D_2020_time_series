@@ -30,7 +30,7 @@ a) Arguments:
 b) Inputs (files you need to copy into the workspace): 
 
 
--->"Hussingroup_Inter_db_consensus_sequences.fasta": This file contains the consensus sequences in the database
+-->"Hussingroup_Inter_db_consensus_sequences.fasta": This file contains the consensus sequences in the database (This file is too large to be uploaded in Github. Contact the main author for access)
 
 
 -->"HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences
@@ -59,7 +59,7 @@ a) Arguments:
 
 b) Inputs (files you need to copy into the workspace): 
 
---> "Hussingroup_Inter_db_consensus_sequences.fasta": This file contains the consensus sequences in the database
+--> "Hussingroup_Inter_db_consensus_sequences.fasta": This file contains the consensus sequences in the database (This file is too large to be uploaded in Github. Contact the main author for access)
 
 --> "HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences
 
