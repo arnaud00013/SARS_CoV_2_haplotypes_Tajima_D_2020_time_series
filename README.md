@@ -5,7 +5,7 @@
 This repository contains the scripts and data used for calculating SARS-CoV-2 haplotypes Tajima's D worldwide during the first and second waves (2020). 
 
 ## Dependencies
-R (version 3.5.2+) packages: "ggplot2", "seqinr", "grid", "RColorBrewer", "randomcoloR", "gplots", "lmPerm", "ggpubr", "gridExtra", "RColorBrewer", "tidyr", "dendextend", "Cairo", "UpSetR", "parallel", "foreach", "doParallel", "infotheo", "igraph", "FD", "vegan", "indicspecies", "plyr", "lme4", "lmerTest", "MuMIn", "AICcmodavg", "EnvStats", "session"
+R (version 3.5.2+) packages: "ggplot2", "seqinr", "grid", "RColorBrewer", "randomcoloR", "gplots", "lmPerm", "ggpubr", "gridExtra", "RColorBrewer", "tidyr", "Cairo", "parallel", "foreach", "doParallel", "FD", "vegan", "indicspecies", "plyr", "lme4", "lmerTest", "MuMIn", "AICcmodavg", "EnvStats", "session"
 
 ## Order of script execution
 The scripts "first_wave_Tajima_D_per_Continent_top3_haplotypes.r" and "second_wave_Tajima_D_per_Continent_top3_haplotypes.r", which calculate Tajima's D with a control for differences in sample size across haplotypes and time, should be executed before "Taj_D_time_series_SARS-CoV-2_top3_continent_Haplotypes.r", which allows to visualize the time series. 
