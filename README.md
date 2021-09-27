@@ -50,6 +50,7 @@ b) Inputs (files you need to copy into the workspace):
 
 c) Output: "Table_time_series_Taj_D_with_resamplings_second_wave_{THE_CONTINENT}_top3_haplotypes.csv"  and "Taj_D_second_wave_{THE_CONTINENT}_top3_haplotypes_RSession.Rda"
 
+
 3. "Taj_D_time_series_SARS-CoV-2_top3_continent_Haplotypes.r"
 
 You should run this script using the command "Rscript Taj_D_time_series_SARS-CoV-2_top3_continent_Haplotypes.r WORKSPACE".
@@ -64,4 +65,10 @@ b) Inputs (files you need to copy into the workspace):
 
 -->"HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences
 
-c) Output: "Table_time_series_Taj_D_with_resamplings_first_wave_{THE_CONTINENT}_top3_haplotypes.csv", the time series plots and the Rsession file.
+c) Output: 
+
+-->"Table_time_series_Taj_D_with_resamplings_first_wave_{THE_CONTINENT}_top3_haplotypes.csv"
+
+-->the time series plots
+
+-->the Rsession file.
