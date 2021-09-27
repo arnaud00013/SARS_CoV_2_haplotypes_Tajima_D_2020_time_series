@@ -2,7 +2,7 @@
 @Author: Arnaud N'Guessan
 
 ## Overview
-This repository contains the scripts and data used for analyzing the spread of SARS-CoV-2 haplotypes worldwide during the first and second waves (2020). 
+This repository contains the scripts and data used for calculating SARS-CoV-2 haplotypes Tajima's D worldwide during the first and second waves (2020). 
 
 ## Dependencies
 R (version 3.5.2+) packages: "ggplot2", "seqinr", "grid", "RColorBrewer", "randomcoloR", "gplots", "lmPerm", "ggpubr", "gridExtra", "RColorBrewer", "tidyr", "dendextend", "Cairo", "UpSetR", "parallel", "foreach", "doParallel", "infotheo", "igraph", "FD", "vegan", "indicspecies", "plyr", "lme4", "lmerTest", "MuMIn", "AICcmodavg", "EnvStats", "session"
