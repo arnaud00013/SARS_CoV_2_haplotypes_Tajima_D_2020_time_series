@@ -5,7 +5,7 @@
 This repository contains the scripts and data used for calculating SARS-CoV-2 haplotypes Tajima's D worldwide during the first and second waves (2020). 
 
 ## Dependencies
-R (version 3.5.2+) packages: "ggplot2", "seqinr", "grid", "RColorBrewer", "randomcoloR", "gplots", "lmPerm", "ggpubr", "gridExtra", "RColorBrewer", "tidyr", "Cairo", "parallel", "foreach", "doParallel", "FD", "vegan", "indicspecies", "plyr", "lme4", "lmerTest", "MuMIn", "AICcmodavg", "EnvStats", "session"
+R (version 3.5.2+) packages: "ggplot2", "seqinr", "grid", "RColorBrewer", "randomcoloR", "gplots", "lmPerm", "ggpubr", "gridExtra", "RColorBrewer", "tidyr", "Cairo", "parallel", "foreach", "doParallel", "FD", "vegan", "plyr", "lme4", "lmerTest", "MuMIn", "AICcmodavg", "EnvStats", "session"
 
 ## Order of script execution
 The scripts "first_wave_Tajima_D_per_Continent_top3_haplotypes.r" and "second_wave_Tajima_D_per_Continent_top3_haplotypes.r", which calculate Tajima's D with a control for differences in sample size across haplotypes and time, should be executed before "Taj_D_time_series_SARS-CoV-2_top3_continent_Haplotypes.r", which allows to visualize the time series. 
@@ -30,10 +30,10 @@ a) Arguments:
 b) Inputs (files you need to copy into the workspace): 
 
 
--->"Hussingroup_Inter_db_consensus_sequences.fasta": This file contains the consensus sequences in the database (This file is too large to be uploaded in Github. Contact the main author for access)
+-->"Hussingroup_Inter_db_consensus_sequences.fasta": This file contains the consensus sequences in the database (This file contains data from GISAID so it can't be shared but we provided the output files obtained after running the script) 
 
 
--->"HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences
+-->"HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences (This file contains data from GISAID so it can't be shared but we provided the output files obtained after running the script) 
 
 
 c) Output: 
@@ -59,9 +59,9 @@ a) Arguments:
 
 b) Inputs (files you need to copy into the workspace): 
 
---> "Hussingroup_Inter_db_consensus_sequences.fasta": This file contains the consensus sequences in the database (This file is too large to be uploaded in Github. Contact the main author for access)
+--> "Hussingroup_Inter_db_consensus_sequences.fasta": This file contains the consensus sequences in the database (This file contains data from GISAID so it can't be shared but we provided the output files obtained after running the script) 
 
---> "HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences
+--> "HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences (This file contains data from GISAID so it can't be shared but we provided the output files obtained after running the script) 
 
 c) Output: 
 
@@ -81,7 +81,7 @@ b) Inputs (files you need to copy into the workspace):
 
 -->The 12 Output files from "first_wave_Tajima_D_per_Continent_top3_haplotypes.r" and "second_wave_Tajima_D_per_Continent_top3_haplotypes.r"
 
--->"HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences
+-->"HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences 
 
 c) Output: 
 
