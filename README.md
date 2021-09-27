@@ -11,7 +11,9 @@ R (version 3.5.2+) packages: "ggplot2", "seqinr", "grid", "RColorBrewer", "rando
 The scripts "first_wave_Tajima_D_per_Continent_top3_haplotypes.r" and "second_wave_Tajima_D_per_Continent_top3_haplotypes.r", which calculate Tajima's D with a control for differences in sample size across haplotypes and time, should be executed before "Taj_D_time_series_SARS-CoV-2_top3_continent_Haplotypes.r", which allows to visualize the time series. 
 
 1."first_wave_Tajima_D_per_Continent_top3_haplotypes.r"
+
 You should run this script using the command "Rscript first_wave_Tajima_D_per_Continent_top3_haplotypes.r WORKSPACE NB_CORES THE_CONTINENT".
+
 a) Arguments:
 -->WORKSPACE: The absolute path of the repertory containing the data 
 -->NB_CORES: Number of cpus for Tajima's D analysis. It corresponds to the number of months that will be analyzed in parallel. Thus, it should be <=7 for Wave 1.
@@ -24,7 +26,9 @@ b) Inputs (files you need to copy into the workspace):
 c) Output: "Table_time_series_Taj_D_with_resamplings_first_wave_{THE_CONTINENT}_top3_haplotypes.csv" and "Taj_D_first_wave_{THE_CONTINENT}_top3_haplotypes_RSession.Rda"
 
 2."second_wave_Tajima_D_per_Continent_top3_haplotypes.r"
+
 You should run this script using the command "Rscript second_wave_Tajima_D_per_Continent_top3_haplotypes.r WORKSPACE NB_CORES THE_CONTINENT".
+
 a) Arguments:
 -->WORKSPACE: The absolute path of the repertory containing the data 
 -->NB_CORES: Number of cpus for Tajima's D analysis. It corresponds to the number of months that will be analyzed in parallel. Thus, it should be <=5 for Wave 2.
@@ -37,7 +41,9 @@ b) Inputs (files you need to copy into the workspace):
 c) Output: "Table_time_series_Taj_D_with_resamplings_second_wave_{THE_CONTINENT}_top3_haplotypes.csv"  and "Taj_D_second_wave_{THE_CONTINENT}_top3_haplotypes_RSession.Rda"
 
 3. "Taj_D_time_series_SARS-CoV-2_top3_continent_Haplotypes.r"
+
 You should run this script using the command "Rscript Taj_D_time_series_SARS-CoV-2_top3_continent_Haplotypes.r WORKSPACE".
+
 a) Arguments:
 -->WORKSPACE: The absolute path of the repertory containing the data (same workspace as the previous scripts)
 
