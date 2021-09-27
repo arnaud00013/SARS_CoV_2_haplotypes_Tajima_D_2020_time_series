@@ -28,7 +28,11 @@ b) Inputs (files you need to copy into the workspace):
 
 -->"HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences
 
-c) Output: "Table_time_series_Taj_D_with_resamplings_first_wave_{THE_CONTINENT}_top3_haplotypes.csv" and "Taj_D_first_wave_{THE_CONTINENT}_top3_haplotypes_RSession.Rda"
+c) Output: 
+
+-->"Table_time_series_Taj_D_with_resamplings_first_wave_{THE_CONTINENT}_top3_haplotypes.csv"
+
+-->"Taj_D_first_wave_{THE_CONTINENT}_top3_haplotypes_RSession.Rda"
 
 2."second_wave_Tajima_D_per_Continent_top3_haplotypes.r"
 
@@ -48,7 +52,11 @@ b) Inputs (files you need to copy into the workspace):
 
 -->"HussinGroup_Interdb_metadata.csv": Metadata of the consensus sequences
 
-c) Output: "Table_time_series_Taj_D_with_resamplings_second_wave_{THE_CONTINENT}_top3_haplotypes.csv"  and "Taj_D_second_wave_{THE_CONTINENT}_top3_haplotypes_RSession.Rda"
+c) Output: 
+
+-->"Table_time_series_Taj_D_with_resamplings_second_wave_{THE_CONTINENT}_top3_haplotypes.csv" 
+
+-->"Taj_D_second_wave_{THE_CONTINENT}_top3_haplotypes_RSession.Rda"
 
 
 3. "Taj_D_time_series_SARS-CoV-2_top3_continent_Haplotypes.r"
@@ -67,8 +75,6 @@ b) Inputs (files you need to copy into the workspace):
 
 c) Output: 
 
--->"Table_time_series_Taj_D_with_resamplings_first_wave_{THE_CONTINENT}_top3_haplotypes.csv"
-
--->the time series plots
+-->The time series plots
 
 -->the Rsession file.
