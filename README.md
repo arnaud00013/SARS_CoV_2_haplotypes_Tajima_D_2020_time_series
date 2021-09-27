@@ -75,6 +75,6 @@ b) Inputs (files you need to copy into the workspace):
 
 c) Output: 
 
--->The time series plots
+-->The time series plots (Tajima's D and number of sequences per haplotype per month per continent)
 
 -->the Rsession file.
